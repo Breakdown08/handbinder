@@ -1,0 +1,13 @@
+# Copy to gestures.toml. Relative script paths are resolved against this file.
+
+device = 0        # camera index
+threads = 1       # OpenCV threads; all cores cost far more CPU for the same frame rate
+idle_fps = 5      # palm search while no hand is in the frame
+active_fps = 15   # hand tracking
+
+hold_ms = 500     # how long a gesture is held before it fires
+cooldown_ms = 2000
+
+[gestures.thumb_up]
+script = "examples/notify.sh"
+# hold_ms = 700   # a binding may override the timings above

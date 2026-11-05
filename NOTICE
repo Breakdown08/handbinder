@@ -1,0 +1,9 @@
+handbinder
+
+src/handbinder/palm.py and src/handbinder/landmarks.py are adapted from opencv_zoo
+(models/palm_detection_mediapipe and models/handpose_estimation_mediapipe),
+Copyright the OpenCV Zoo contributors, licensed under the Apache License, Version 2.0:
+https://github.com/opencv/opencv_zoo
+
+The model weights are not stored in this repository. They are downloaded from opencv_zoo
+and are licensed under the Apache License, Version 2.0.
