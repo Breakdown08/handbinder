@@ -63,4 +63,6 @@ uv run pytest
 
 Every variable is typed; `tests/test_annotations.py` enforces it.
 
-See [NOTICE](NOTICE) for the code and models adapted from opencv_zoo.
+## License
+
+Apache 2.0, see [LICENSE](LICENSE). The code and models adapted from opencv_zoo are listed in [NOTICE](NOTICE).

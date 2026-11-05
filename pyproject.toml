@@ -3,6 +3,7 @@ name = "handbinder"
 version = "0.1.0"
 description = "Bind hand gestures to your own scripts: a local webcam pipeline built on OpenCV"
 readme = "README.md"
+license = "Apache-2.0"
 requires-python = ">=3.12"
 dependencies = [
     "numpy>=2",
